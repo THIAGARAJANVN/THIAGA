@@ -36,4 +36,9 @@ public class WordServiceImplTest {
         assertEquals(1, wordService.countWord("foox"));
         assertEquals(0, wordService.countWord("123abc"));
     }
+    
+    @Test
+    public void addAndCountWordTest1() {
+        assertTrue(wordService.addWord("abc"));
+    }
 }
