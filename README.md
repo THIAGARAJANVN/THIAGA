@@ -1,4 +1,4 @@
-# word-counter
+# word-counter version 1.0
 Write a library called "WordCounter".  It should have the following two distinct methods:
 1.	method that allows you to add words
 2.	method that returns the count of how many times a given word was added to the word counter
